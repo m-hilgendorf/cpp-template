@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "Run Tests (Debug)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/debug/tests",
+      "stopAtEntry": false,
+      "launchCompleteCommand": "exec-run",
+      "linux": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "/usr/bin/gdb"
+      },
+      "cwd": "${workspaceFolder}/scratch"
+    },
+  ]
+}
